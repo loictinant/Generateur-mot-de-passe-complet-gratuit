@@ -8,8 +8,6 @@
 
 La version **0.3** est disponible dans les [releases GitHub](https://github.com/loictinant/Generateur-mot-de-passe-complet-gratuit/releases/tag/v0.3).
 
-[Télécharger directement le fichier Windows (.exe)](https://github.com/loictinant/Generateur-mot-de-passe-complet-gratuit/releases/download/v0.1/GenerateurMotDePasseCompletGratuit_0.3.exe)
-
 ## À quoi sert ce logiciel ?
 
 Le Générateur de mot de passe complet gratuit permet de créer des mots de passe aléatoires en gardant la maîtrise de leur composition. Au lieu de choisir seulement une longueur ou un ensemble de caractères général, vous pouvez indiquer combien de caractères de chaque catégorie doivent apparaître. Le logiciel mélange ensuite les caractères sélectionnés avant d’afficher le résultat.
