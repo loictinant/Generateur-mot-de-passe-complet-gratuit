@@ -6,9 +6,9 @@
 
 ## Télécharger
 
-La version **0.1** est disponible dans les [releases GitHub](https://github.com/loictinant/Generateur-mot-de-passe-complet-gratuit/releases/tag/v0.1).
+La version **0.3** est disponible dans les [releases GitHub](https://github.com/loictinant/Generateur-mot-de-passe-complet-gratuit/releases/tag/v0.3).
 
-[Télécharger directement le fichier Windows (.exe)](https://github.com/loictinant/Generateur-mot-de-passe-complet-gratuit/releases/download/v0.1/GenerateurMotDePasseCompletGratuit_0.1.exe)
+[Télécharger directement le fichier Windows (.exe)](https://github.com/loictinant/Generateur-mot-de-passe-complet-gratuit/releases/download/v0.1/GenerateurMotDePasseCompletGratuit_0.3.exe)
 
 ## À quoi sert ce logiciel ?
 
