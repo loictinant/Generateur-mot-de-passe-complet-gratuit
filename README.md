@@ -6,7 +6,7 @@
 
 ## Télécharger
 
-La version **0.3** est disponible dans les [releases GitHub](https://github.com/loictinant/Generateur-mot-de-passe-complet-gratuit/releases/tag/v0.3).
+La version **0.4** est disponible dans les [releases GitHub](https://github.com/loictinant/Generateur-mot-de-passe-complet-gratuit/releases/tag/v0.4).
 
 ## À quoi sert ce logiciel ?
 
