@@ -1,0 +1,39 @@
+HISTORIQUE DES MISES À JOUR
+Générateur de mot de passe complet gratuit — TINANT LOIC
+
+VERSION 0.1 — Première version
+- Génération locale de mots de passe à l’aide d’un générateur aléatoire cryptographique.
+- Choix de la longueur et de la répartition entre minuscules, majuscules, chiffres et symboles.
+- Copie du résultat dans le presse-papiers.
+- Option pour éviter les caractères ambigus.
+- Ajout de la politique de confidentialité.
+
+VERSION 0.2 — Répartition automatique
+- La répartition des caractères s’ajuste automatiquement lorsque la longueur demandée change.
+- La somme des catégories reste alignée sur la longueur choisie.
+- Version de l’application portée à 0.2.
+
+VERSION 0.3 — Génération par lots
+- Génération de 1 à 10 mots de passe.
+- Navigation entre les résultats précédents et suivants.
+- Copie d’un résultat ou de tout le lot.
+- Interface rafraîchie avec cartes et boutons colorés.
+- Les mots de passe restent uniquement en mémoire et ne forment pas un historique conservé.
+
+VERSION 0.4 — Composition et estimation
+- Cases à cocher pour activer ou désactiver chaque catégorie de caractères.
+- Ajout de caractères personnalisés à éviter.
+- Rééquilibrage automatique de la répartition entre les catégories actives.
+- Ajout d’une estimation indicative de la force et de sa barre colorée.
+- Amélioration de l’interface et de ses smileys dessinés.
+
+VERSION 0.5 — Personnalisation et accessibilité
+- Ajout de profils rapides : Équilibré, Long (24) et Sans symboles.
+- Les lots générés ne contiennent pas de doublons. Si les réglages ne permettent pas de produire le nombre demandé, l’application affiche le nombre distinct disponible.
+- Ajout dans Paramètres du thème clair/sombre et de l’effacement différé du presse-papiers (jamais, 15, 30 ou 60 secondes).
+- L’effacement différé ne vide le presse-papiers que si son contenu est toujours celui copié par l’application.
+- Ajout de smileys plus visibles dessinés en couleur, et de flèches de navigation colorées.
+- Ajout du logo dans l’en-tête, de l’icône Windows et d’une fenêtre redimensionnable vers une taille supérieure à la taille minimale.
+- Ajout des liens du site, de GitHub et du Microsoft Store, ainsi que d’un bouton Faire un don vers PayPal.
+- Amélioration des noms accessibles, des aides contextuelles et de la navigation au clavier.
+- Mise à jour de la politique de confidentialité pour expliquer les préférences locales et le délai d’effacement du presse-papiers.
