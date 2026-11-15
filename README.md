@@ -1,58 +1,52 @@
 # Générateur de mot de passe complet gratuit
 
-**Un générateur de mots de passe pour Windows, simple à régler et utilisable hors ligne.** Choisissez la longueur, définissez exactement le nombre de minuscules, de majuscules, de chiffres et de symboles, puis créez un mot de passe aléatoire directement sur votre ordinateur.
+**Un générateur de mots de passe pour Windows, simple à régler et utilisable hors ligne.** Choisissez la longueur, la composition et le nombre de résultats à créer. Les mots de passe sont générés directement sur votre ordinateur.
 
-![Capture d’écran du Générateur de mot de passe complet gratuit](images/ecran-principal.png)
+![Illustration du Générateur de mot de passe complet gratuit](images/Image-couverture-Generateur-0.5.png)
+
+![Capture de l’application en version 0.5](images/Capture-application-version-0.5.jpeg)
 
 ## Télécharger
 
-La version **0.4** est disponible.
+La version **0.5** est disponible sur la [page des releases GitHub](https://github.com/loictinant/Generateur-mot-de-passe-complet-gratuit/releases/latest). Téléchargez **GenerateurMotDePasseCompletGratuit_0.5.exe** dans la section des fichiers.
 
-## À quoi sert ce logiciel ?
+> **À propos de la signature :** cet EXE n’est pas signé par un certificat de signature de code. Windows peut afficher un avertissement SmartScreen lors du téléchargement ou du lancement. Le fichier officiel est publié dans les releases de ce dépôt.
 
-Le Générateur de mot de passe complet gratuit permet de créer des mots de passe aléatoires en gardant la maîtrise de leur composition. Au lieu de choisir seulement une longueur ou un ensemble de caractères général, vous pouvez indiquer combien de caractères de chaque catégorie doivent apparaître. Le logiciel mélange ensuite les caractères sélectionnés avant d’afficher le résultat.
-
-L’application est conçue pour aller droit au but : ses réglages et le mot de passe sont présentés dans une seule fenêtre. Aucun compte n’est nécessaire. La génération se fait localement sur le PC et le mot de passe n’est pas enregistré par l’application.
+Consultez l’[historique complet des versions 0.1 à 0.5](HISTORIQUE-MISES-A-JOUR-0.1-A-0.5.txt).
 
 ## Fonctionnalités
 
-- **Longueur personnalisable :** de 1 à 128 caractères.
-- **Répartition précise :** choisissez le nombre exact de lettres minuscules, de lettres majuscules, de chiffres et de symboles.
-- **Vérification de la longueur :** le total des catégories doit correspondre à la longueur choisie. Le bouton de génération est activé lorsque la répartition est valide.
-- **Exclusion des caractères ambigus :** option pour écarter `O`, `0`, `I`, `l` et `1`, afin de rendre le résultat plus facile à lire ou à recopier.
-- **Génération aléatoire cryptographique :** les caractères sont tirés avec l’API cryptographique de .NET, puis mélangés.
-- **Copie en un clic :** copiez le résultat dans le presse-papiers Windows avec le bouton **Copier**.
-- **Politique de confidentialité intégrée :** consultez les informations de confidentialité depuis le lien dans l’application.
-- **Interface en français :** conçue pour une utilisation simple sur un ordinateur Windows.
+- **Composition personnalisée :** choisissez la longueur et activez ou désactivez les minuscules, majuscules, chiffres et symboles.
+- **Répartition automatique :** les catégories actives se rééquilibrent avec la longueur sélectionnée; vous pouvez ensuite ajuster leur répartition.
+- **Profils rapides :** Équilibré, Long (24 caractères) et Sans symboles.
+- **Lots de mots de passe :** générez jusqu’à 10 résultats et parcourez-les avec les boutons précédent et suivant.
+- **Résultats sans doublon :** chaque mot de passe d’un lot est unique. Si les réglages ne permettent pas d’atteindre la quantité demandée, l’application affiche le nombre distinct disponible.
+- **Exclusions personnalisées :** évitez les caractères ambigus ou indiquez vos propres caractères à exclure.
+- **Indicateur de force :** consultez une estimation indicative avec une barre colorée.
+- **Copie du résultat :** copiez un mot de passe ou l’ensemble du lot dans le presse-papiers Windows.
+- **Effacement différé :** dans Paramètres, choisissez de ne jamais effacer le presse-papiers ou de le vider après 15, 30 ou 60 secondes. L’application l’efface seulement si le texte copié est toujours présent et si elle est encore ouverte.
+- **Thèmes clair et sombre :** le thème et le délai d’effacement choisi sont conservés localement dans votre profil Windows.
+- **Accessibilité :** noms accessibles, aides contextuelles et navigation au clavier.
 
-Les symboles disponibles comprennent notamment : `! @ # $ % ^ & * ( ) - _ = + [ ] { } ; : , . ?`.
+La génération utilise le générateur aléatoire cryptographique de .NET. Les mots de passe générés restent uniquement en mémoire et ne sont pas enregistrés dans un fichier.
 
 ## Utilisation
 
-1. Choisissez la longueur totale du mot de passe.
-2. Répartissez cette longueur entre les minuscules, les majuscules, les chiffres et les symboles. Vous pouvez mettre une catégorie à zéro si vous ne souhaitez pas l’utiliser.
-3. Vérifiez que la somme affichée correspond à la longueur demandée.
-4. Activez **Éviter les caractères ambigus** si vous souhaitez exclure `O`, `0`, `I`, `l` et `1`.
-5. Cliquez sur **Générer un mot de passe**. Le résultat apparaît dans le champ prévu à cet effet.
-6. Cliquez sur **Copier** pour le placer dans le presse-papiers, puis collez-le dans le service concerné.
+1. Choisissez un profil rapide ou réglez la longueur et les catégories de caractères.
+2. Indiquez le nombre de mots de passe à générer et, si besoin, les caractères à éviter.
+3. Cliquez sur **Générer les mots de passe**.
+4. Parcourez les résultats, puis copiez le mot de passe affiché ou tout le lot.
 
-## Confidentialité et traitement des mots de passe
+## Confidentialité
 
-La génération et l’affichage du mot de passe se font sur l’appareil. L’application ne crée pas de compte, ne transmet pas le mot de passe à l’éditeur et ne le sauvegarde pas dans un fichier. Les choix de composition ne sont pas conservés après la fermeture du logiciel.
-
-Lorsque vous cliquez sur **Copier**, le mot de passe est écrit dans le presse-papiers Windows. Windows peut conserver ou synchroniser le contenu du presse-papiers selon les paramètres de votre appareil. Pensez à remplacer ou effacer ce contenu lorsque vous avez terminé, en particulier sur un ordinateur partagé.
-
-Le logiciel est un générateur et ne conserve pas vos mots de passe : enregistrez le mot de passe obtenu dans un coffre-fort adapté si vous devez le retrouver plus tard.
+La génération se fait sur l’appareil. L’application ne crée pas de compte, n’enregistre pas les mots de passe et ne les transmet pas à l’éditeur. Seuls le thème et le délai d’effacement sont conservés dans le profil Windows. L’effacement du presse-papiers ne supprime pas nécessairement les copies déjà conservées ou synchronisées par Windows selon ses propres réglages.
 
 ## Informations
 
 - **Nom :** Générateur de mot de passe complet gratuit
-- **Version :** 0.1
+- **Version :** 0.5
 - **Système :** Windows
-- **Éditeur :** TINANT LOIC
+- **Créé par :** TINANT LOIC
 - **Prix :** gratuit
 
-## Auteur
-
-Créé et publié par **TINANT LOIC**. Pour obtenir l’exécutable ou consulter les autres versions, rendez-vous sur la [page des releases GitHub](https://github.com/loictinant/Generateur-mot-de-passe-complet-gratuit/releases).
-
+Site : [loic-apps.duckdns.org](https://loic-apps.duckdns.org/) · [GitHub](https://github.com/loictinant/Generateur-mot-de-passe-complet-gratuit) · [Microsoft Store](https://apps.microsoft.com/detail/9p7dgl8k9zgv?hl=fr-FR&gl=FR)
