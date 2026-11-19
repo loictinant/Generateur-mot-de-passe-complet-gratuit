@@ -1,0 +1,56 @@
+HISTORIQUE DES MISES À JOUR
+Générateur de mot de passe complet gratuit — TINANT LOIC
+
+VERSION 0.1 — Première version
+- Génération locale de mots de passe à l’aide d’un générateur aléatoire cryptographique.
+- Choix de la longueur et de la répartition entre minuscules, majuscules, chiffres et symboles.
+- Copie du résultat dans le presse-papiers.
+- Option pour éviter les caractères ambigus.
+- Ajout de la politique de confidentialité.
+
+VERSION 0.2 — Répartition automatique
+- La répartition des caractères s’ajuste automatiquement lorsque la longueur demandée change.
+- La somme des catégories reste alignée sur la longueur choisie.
+- Version de l’application portée à 0.2.
+
+VERSION 0.3 — Génération par lots
+- Génération de 1 à 10 mots de passe.
+- Navigation entre les résultats précédents et suivants.
+- Copie d’un résultat ou de tout le lot.
+- Interface rafraîchie avec cartes et boutons colorés.
+- Les mots de passe restent uniquement en mémoire et ne forment pas un historique conservé.
+
+VERSION 0.4 — Composition et estimation
+- Cases à cocher pour activer ou désactiver chaque catégorie de caractères.
+- Ajout de caractères personnalisés à éviter.
+- Rééquilibrage automatique de la répartition entre les catégories actives.
+- Ajout d’une estimation indicative de la force et de sa barre colorée.
+- Amélioration de l’interface et de ses smileys dessinés.
+
+VERSION 0.5 — Personnalisation et accessibilité
+- Ajout de profils rapides : Équilibré, Long (24) et Sans symboles.
+- Les lots générés ne contiennent pas de doublons. Si les réglages ne permettent pas de produire le nombre demandé, l’application affiche le nombre distinct disponible.
+- Ajout dans Paramètres du thème clair/sombre et de l’effacement différé du presse-papiers (jamais, 15, 30 ou 60 secondes).
+- L’effacement différé ne vide le presse-papiers que si son contenu est toujours celui copié par l’application.
+- Ajout de smileys dessinés en couleur et de flèches de navigation colorées.
+- Ajout du logo dans l’en-tête, de l’icône Windows et d’une fenêtre redimensionnable vers une taille supérieure à la taille minimale.
+- Ajout des liens du site, de GitHub et du Microsoft Store, ainsi que d’un bouton Faire un don vers PayPal.
+- Amélioration des noms accessibles, des aides contextuelles et de la navigation au clavier.
+- Mise à jour de la politique de confidentialité pour expliquer les préférences locales et le délai d’effacement du presse-papiers.
+
+VERSION 0.6 — Langues et profils personnalisés
+- Ajout du choix entre le français et l’anglais dans le menu Paramètres; le choix est conservé localement.
+- Possibilité d’enregistrer jusqu’à 20 profils personnalisés à partir des réglages courants et de les sélectionner depuis la liste des profils rapides.
+- Les profils personnalisés mémorisent uniquement le nom et les réglages de génération; aucun mot de passe n’y est stocké.
+- Ajout d’un compte à rebours visible avant l’effacement automatique du presse-papiers.
+- Le lien de pied de fenêtre affiche « Site internet » au lieu de l’adresse.
+- Politique de confidentialité mise à jour pour décrire la langue et les profils enregistrés localement.
+
+VERSION 0.7 — Plus de détails et d’information sur le presse-papiers
+- Le détail de l’estimation affiche la répartition exacte et le nombre de caractères disponibles dans chaque catégorie utilisée.
+- Les exclusions de caractères indiquent leur effet sur l’estimation de force.
+- Ajout d’une explication précisant que cette estimation est théorique et ne prédit pas un temps de déchiffrement.
+- L’état du presse-papiers indique clairement si l’effacement automatique est activé, le temps restant, et si le contenu copié a changé.
+- En cas de blocage de l’accès au presse-papiers, l’application avertit que le mot de passe peut encore y être présent et recommande de vérifier ou d’effacer son contenu manuellement.
+- Les paramètres rappellent que l’application doit rester ouverte et que l’historique du presse-papiers Windows peut conserver une copie.
+- Mise à jour du générateur aléatoire cryptographique et de la politique de confidentialité.
